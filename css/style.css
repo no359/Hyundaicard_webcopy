@@ -40,7 +40,8 @@ a{
     padding: 28px 20px 26px;
 }
 .top-bar-wrap > .menu{
-    display: inline;
+    padding-left: 60px;
+    display: inline-block;
 }
 .top-bar-wrap > .menu > .menu01{
     display: inline-block;
@@ -63,14 +64,74 @@ a{
     box-sizing: border-box;
     border-right: solid black 1px;
 }
-.body > .left > .main-benner{
-    width:392px;
-    height: 792px;
+.body > .left > .main-banner{
+    width:817px;
+    height: 426px;
+    background-color: #99f;
 }
-.body > .left > .main-benner > .content{
+.body > .left > .main-banner > .content{
     width: 248px;
     height: 392px;
     border-radius: 5px;
+}
+.body > .left > .card{
+    width: 780px;
+    height: 388px;
+    padding-top: 64px;
+    padding-right: 30px;
+}
+.body > .left > .card > .txt-box{
+    width: 191px;
+    height: 388px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+.body > .left > .card > .txt-box > h2{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.body > .left > .card > .txt-box > span{
+    font-size: 12px;
+    /* padding-bottom: 20px;
+    box-sizing: border-box; */
+}
+.body > .left > .card > .txt-box > .vm{
+    font-size: 15px;
+    color:blue;
+    padding: 10px 0;
+}
+.body > .left > .card > .txt-box > .tag-list > .tag-box{
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 8px;
+}
+.body > .left > .card > .card-list{
+    width: 582px;
+    height: 388px;
+    box-sizing: border-box;
+}
+.body > .left > .card > .card-list > .card-plate{
+    width: 145px;
+    height: 160px;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.body > .left > .line{
+    border-bottom:solid black 1px;
+}
+.body > .left > .sub-banner{
+    width: 817px;
+    height: 667px;
+}
+.body > .left > .sub-banner > .content{
+    padding: 0 10px 20px;
+    box-sizing: border-box;
 }
 /* body left end */
 
